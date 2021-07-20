@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+</head>
+
+
+<body>
+
+    <h3> Your result of given test is:</h3>
+    <h4>{{ pred }}</h4>
+
+    {% if pred == " Prediction : 4 Technical Writer Name: ROLE, dtype: object "%}
+    <p>Hello, Web</p>
+    {%else%}
+    <p>Hello, Not Technical Writer</p>
+    {% endif %}
+    <!-- 
+    <% if i: %>
+        output someting
+        <% end %>
+            <% else: %>
+                output someting else
+                <% end %>
+                     <script> 
+        var P = p;
+        if (P == "Prediction : 4 Technical Writer Name: ROLE, dtype: object") {
+            console.log("Technical Writer");
+        } else {
+            console.log("Other than technical writer");
+        }
+    </script> -->
+
+
+    {% block body %} {% endblock body %}
+
+</body>
+
+
+
+
+
+
+
+</html>
